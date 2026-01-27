@@ -2,7 +2,6 @@
 
 A comprehensive, modern university website built with React, TypeScript, Express, and PostgreSQL. Features a full-stack application with role-based authentication, dynamic content management, and an engaging user interface.
 
-![SRIT Campus](https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&w=1200&q=80)
 
 ## 🌟 Features
 
