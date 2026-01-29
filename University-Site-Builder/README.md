@@ -431,9 +431,6 @@ Error: listen ENOTSUP: operation not supported on socket 0.0.0.0
 
 This project is licensed under the MIT License.
 
-## 👨‍💻 Development Team
-
-Built with ❤️ for modern education
 
 ## 🙏 Acknowledgments
 
@@ -441,10 +438,6 @@ Built with ❤️ for modern education
 - **Shadcn/ui** - Component library
 - **Framer Motion** - Animation library
 - **Radix UI** - Accessible components
-
-## 📞 Support
-
-For support, email support@srit.ac.in or visit our website.
 
 ---
 
@@ -503,26 +496,3 @@ npx tsx server/index.ts
    - Settings
 
 ---
-
-**🎉 Project is fully functional and ready to use!**
-# 1. Clone and install
-git clone <repo>
-cd University-Site-Builder
-npm install
-
-# 2. Setup database
-createdb university_db
-
-# 3. Configure environment
-echo "DATABASE_URL=postgres://localhost/university_db" > .env
-echo "PORT=3000" >> .env
-echo "NODE_ENV=development" >> .env
-
-# 4. Run application (Windows)
-powershell -File run.ps1
-
-# 5. Open browser
-# http://localhost:3000
-```
-
-🎉 **Your university website is now live!**
