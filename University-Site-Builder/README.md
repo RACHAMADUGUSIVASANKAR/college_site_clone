@@ -1,6 +1,7 @@
-# 🎓 SRIT University Site Builder
+# 🎓 SRIT College
 
-A comprehensive, modern university website built with React, TypeScript, Express, and PostgreSQL. Features a full-stack application with role-based authentication, dynamic content management, and an engaging user interface.
+A comprehensive, modern College website. Features a full-stack application with role-based authentication, dynamic content management, and an engaging user interface.
+<img width="1896" height="852" alt="Screenshot 2026-01-30 210755" src="https://github.com/user-attachments/assets/c12534b9-cdc9-46fd-a5b6-4a899ca3a228" />
 
 
 ## 🌟 Features
@@ -126,10 +127,9 @@ npm install
 ### Option A: Supabase (Recommended - Cloud Database)
 **Free, cloud-hosted, no installation required!**
 
-Follow the [**Supabase Setup Guide (SUPABASE_SETUP.md)**](./SUPABASE_SETUP.md) for detailed instructions.
 
 Quick steps:
-1. Create free account at [supabase.com](https://supabase.com)
+1. Create free account at supabase.com
 2. Create new project
 3. Get connection string from Settings > Database
 4. Set it in `run.ps1` or `.env` file
@@ -185,7 +185,7 @@ $env:NODE_ENV = "development"
 npx tsx server/index.ts
 ```
 
-✅ **Server starts on http://localhost:3000**
+✅ Server starts on your localhost
 
 ### With PowerShell Script
 ```powershell
@@ -195,7 +195,7 @@ npx tsx server/index.ts
 
 The app will automatically:
 - ✅ Use in-memory storage (no database required)
-- ✅ Start on http://localhost:3000
+- ✅ Start on your localhost
 - ✅ Create demo login accounts
 - ✅ Hot reload enabled for development
 
@@ -235,12 +235,7 @@ npm run build
 npm start
 ```
 
-The application will be available at: **http://localhost:3000**
-
-**🎉 You'll see:**
-- `No database connection, using in-memory storage` - OR
-- `Using database storage (PostgreSQL/Supabase)`
-
+The application will be available at your localhost
 ## 🔑 Demo Credentials
 
 ### Student Portal
